@@ -4,16 +4,13 @@ body {
 
 #thermoBox {
     border: 1px solid #000;
-    background-color: #FFF;
     height: 400px; 
     width: 100px;
-    text-align: center;
     margin: 0 auto;
-
 }
 
 #temp {
     background-color: #F00;
-    height: 100%;
+    height: 50%;
     width: 100%;
 }
