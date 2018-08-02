@@ -1,7 +1,9 @@
 function cToF(tempC) {
-    tempC * (9/5) + 32;
+    tempC = tempC * (9/5) + 32;
+    return tempC;
 }
 
 function fToC(tempF) {
-    (tempF - 32) * (5/9);
+    tempF = (tempF - 32) * (5/9);
+    return tempF;
 }
